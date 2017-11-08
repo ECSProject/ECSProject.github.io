@@ -11,7 +11,21 @@ function replaceTag(tag) {
 function safe_tags_replace(str) {
     return str.replace(/[&<>]/g, replaceTag);
 }
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
 
+header, footer {
+    padding: 1em;
+    font-family: "Times New Roman";
+    font-weight:bold;
+    color: navy;
+    background-image:url("goo.gl/Zuz1jz");
+    border: 5px inset black;
+    clear: left;
+    text-align: center;
+    text-decoration: underline;
 
 
 .tableStyle{
@@ -24,7 +38,7 @@ function safe_tags_replace(str) {
 
 .tableStyle th, td{
     border: 3px solid red;
-    color: blue;
+    color: black;
 }
 
 .bodyStyle{
@@ -38,3 +52,9 @@ function safe_tags_replace(str) {
 
 .bgColor{
   background-color:green;
+}
+.header h1{
+  font-family: Verdana;
+  color:green;
+  
+}
