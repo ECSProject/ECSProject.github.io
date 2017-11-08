@@ -1,0 +1,40 @@
+var tagsToReplace = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;'
+};
+
+function replaceTag(tag) {
+    return tagsToReplace[tag] || tag;
+}
+
+function safe_tags_replace(str) {
+    return str.replace(/[&<>]/g, replaceTag);
+}
+
+
+
+.tableStyle{
+  font-family: Monospace;
+  text-align: center;
+  border: 3px solid black;
+  color: red;
+  border-collapse: collapse;
+}
+
+.tableStyle th, td{
+    border: 3px solid red;
+    color: blue;
+}
+
+.bodyStyle{
+  font-family: Sans-Serif;
+  color: black;
+}
+
+.bodyStyle p{
+  font-family: Serif;
+}
+
+.bgColor{
+  background-color:green;
