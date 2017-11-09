@@ -8,7 +8,7 @@ header, footer {
     font-family: "Trebuchet ";
     font-weight:bold;
     color: navy;
-    background-image:url(goo.gl/UKyqdQ");
+    background-image:url("goo.gl/UKyqdQ");
     border: 5px inset black;
     clear: left;
     text-align: center;
@@ -92,6 +92,16 @@ ins {
 }
   
 
-
+.tablestyle2 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+  border:12px;
   
-
+}
+.tablestyle2 td {
+  border: 1px solid gray;
+  padding: 8px;
+}
