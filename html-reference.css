@@ -1,16 +1,3 @@
-var tagsToReplace = {
-    '&': '&amp;',
-    '<': '&lt;',
-    '>': '&gt;'
-}
-
-function replaceTag(tag) {
-    return tagsToReplace[tag] || tag;
-}
-
-function safe_tags_replace(str) {
-    return str.replace(/[&<>]/g, replaceTag);
-}
 div.container {
     width: 100%;
     border: 1px solid gray;
@@ -21,39 +8,87 @@ header, footer {
     font-family: "Times New Roman";
     font-weight:bold;
     color: navy;
-    background-image:url("goo.gl/Zuz1jz");
+    background-image:url("goo.gl/UKyqdQ");
     border: 5px inset black;
     clear: left;
     text-align: center;
     text-decoration: underline;
-}cx   e3ew
-
-.tablestyle{
-  font-family: Monospace;
-  text-align: center;
-  border: 3px solid black;
-  color: red;
-  border-collapse: collapse;
 }
 
-
-.bodyStyle{
-  font-family: Sans-Serif;
-  color: black;
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
 }
 
-.bodyStyle p{
-  font-family: Serif;
+nav ul {
+    list-style-type: none;
+    padding: 8px;
+    border: 1px solid #ddd;
+    
+}
+   
+nav ul a {
+    text-decoration: none;
+
 }
 
-.bgColor{
-  background-color:green;
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
 }
-.header h1{
-  font-family: Verdana;
-  color:green;
+h1 {
+  font-family:"Times New Roman";
+  border: 2px solid black;
+  background-color: lightblue;
+}
+h3 {
+  font-family:"Courier New";
+  font-style: bold;
   
 }
-.bgImage{
-  background-image: url("goo.gl/nbmzuAcontent_copyCopy short URL")
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: skyblue;
+    color: white;
+}
+ins {
+  text-indent:50px;
+}
+.example {
+  padding:12px;
+  background-color: #f2f2f2;
+  box-shadow: 4px 4px 2px darkgray;
+  border: 3px groove skyblue;
+  
+}
+.linestyle1 {
+  height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+  
 
