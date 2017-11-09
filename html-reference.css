@@ -2,7 +2,7 @@ var tagsToReplace = {
     '&': '&amp;',
     '<': '&lt;',
     '>': '&gt;'
-};
+}
 
 function replaceTag(tag) {
     return tagsToReplace[tag] || tag;
@@ -26,9 +26,9 @@ header, footer {
     clear: left;
     text-align: center;
     text-decoration: underline;
+}cx   e3ew
 
-
-.tableStyle{
+.tablestyle{
   font-family: Monospace;
   text-align: center;
   border: 3px solid black;
@@ -36,10 +36,6 @@ header, footer {
   border-collapse: collapse;
 }
 
-.tableStyle th, td{
-    border: 3px solid red;
-    color: black;
-}
 
 .bodyStyle{
   font-family: Sans-Serif;
@@ -58,3 +54,6 @@ header, footer {
   color:green;
   
 }
+.bgImage{
+  background-image: url("goo.gl/nbmzuAcontent_copyCopy short URL")
+
