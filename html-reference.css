@@ -8,7 +8,7 @@ header, footer {
     font-family: "Trebuchet ";
     font-weight:bold;
     color: navy;
-    background-image:url("goo.gl/UKyqdQ");
+    background-color:lightgreen);
     border: 5px inset black;
     clear: left;
     text-align: center;
@@ -104,8 +104,4 @@ ins {
 .tablestyle2 td {
   border: 1px solid gray;
   padding: 8px;
-}
-}
-.bgImage{
-  background-image: url("http://pre06.deviantart.net/4388/th/pre/f/2012/240/f/7/pretty_backround_by_rokku_d-d5cr7n8.jpg")
-}
+
