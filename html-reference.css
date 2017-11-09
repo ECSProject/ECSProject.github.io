@@ -5,10 +5,10 @@ div.container {
 
 header, footer {
     padding: 1em;
-    font-family: "Times New Roman";
+    font-family: "Trebuchet ";
     font-weight:bold;
     color: navy;
-    background-image:url("goo.gl/UKyqdQ");
+    background-image:url(goo.gl/UKyqdQ");
     border: 5px inset black;
     clear: left;
     text-align: center;
@@ -53,26 +53,26 @@ h3 {
   font-style: bold;
   
 }
-#customers {
+#css {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 
-#customers td, #customers th {
+#css td, #css th {
     border: 1px solid #ddd;
     padding: 8px;
 }
 
-#customers tr:nth-child(even){background-color: #f2f2f2;}
+#css tr:nth-child(even){background-color: #f2f2f2;}
 
-#customers tr:hover {background-color: #ddd;}
+#css tr:hover {background-color: #ddd;}
 
-#customers th {
+#css th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: skyblue;
+    background-color: darkblue;
     color: white;
 }
 ins {
@@ -90,5 +90,8 @@ ins {
     border: 0;
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
+  
+
+
   
 
