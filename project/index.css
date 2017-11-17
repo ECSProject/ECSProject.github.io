@@ -11,9 +11,10 @@ header, footer {
 }
 h1 {
   font-family:"Times New Roman";
-  border: 2px solid black;
-  background-color: lightblue;
-  
+  color:black;
+  padding:1em;
+  border: 5px solid black;
+  background-image:url("https://media2.s-nbcnews.com/i/newscms/2017_24/1220911/french-fries-today-170612-tease_327fa4cb97be2176facc040734d6ae93.jpg");
 }
 
 p1 {
@@ -99,3 +100,20 @@ body {
     padding: 10px;
     text-align: center;
 }
+.tablestyle2 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+  border:12px;
+  
+}
+.tablestyle2 td {
+  border: 1px solid gray;
+  padding: 8px;
+  }
+
+
+
+
